@@ -1,0 +1,69 @@
+.header{
+    background-color:black;
+    
+}
+
+.header h3{
+    color: rgb(184, 175, 175);
+    font-size: 14px;
+    margin-top: 15px;    
+}
+
+#canasta, #salir{
+    color: rgb(184, 175, 175);
+
+}
+
+.icono{
+    color: rgb(184, 175, 175);
+}
+
+#lupa{
+    margin-left: -6px;
+}
+
+.principal{
+    margin-top: 40px;
+}
+
+.cate{
+    width: 300px;
+}
+
+.cate li{
+    border: 1px #504f4f solid;
+}
+
+.seccion{
+    margin-top: 30px;
+    }
+.deseos{
+    color: rgb(161, 161, 209);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: -10px;
+    margin-top: 6px;
+}    
+
+.eltab{
+    width: 50%;
+    margin-top:20px;
+}
+
+.comentario{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 991px){
+    .categoria{
+        display: none;
+    }
+
+    .slide{
+        margin-top:20px;
+    }
+
+    .eltab{
+        width: 70%;
+    }
+
+}
